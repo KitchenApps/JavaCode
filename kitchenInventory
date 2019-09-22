@@ -1,0 +1,49 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package kitchenapp;
+
+import java.util.ArrayList;
+import java.util.List;
+
+/**
+ *
+ * @author samqabbani
+ */
+public class KitchenInventory {
+    
+    private String availableItems;
+    private List kiList = new ArrayList();
+
+    /**
+     * @return the availableItems
+     */
+    public String getAvailableItems() {
+        return availableItems;
+    }
+
+    /**
+     * @param availableItems the availableItems to set
+     */
+    public void setAvailableItems(String availableItems) {
+        this.availableItems = availableItems;
+    }
+
+    /**
+     * @return the kiList
+     */
+    public List getKiList() {
+        return kiList;
+    }
+
+    /**
+     * @param kiList the kiList to set
+     */
+    public void setKiList(List kiList) {
+        this.kiList = kiList;
+    }
+
+    
+}
