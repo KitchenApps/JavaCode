@@ -1,0 +1,59 @@
+package kitchenapp;
+
+import java.util.ArrayList;
+import java.util.List;
+
+/**
+ *
+ * @author samqabbani
+ */
+public class GroceryList {
+    
+    private String nameGlist;
+    private int length;
+    private List groceryList = new ArrayList();
+
+    /**
+     * @return the nameGlist
+     */
+    public String getNameGlist() {
+        return nameGlist;
+    }
+
+    /**
+     * @param nameGlist the nameGlist to set
+     */
+    public void setNameGlist(String nameGlist) {
+        this.nameGlist = nameGlist;
+    }
+
+    /**
+     * @return the length
+     */
+    public int getLength() {
+        return length;
+    }
+
+    /**
+     * @param length the length to set
+     */
+    public void setLength(int length) {
+        this.length = length;
+    }
+
+    /**
+     * @return the groceryList
+     */
+    public List getGroceryList() {
+        return groceryList;
+    }
+
+    /**
+     * @param groceryList the groceryList to set
+     */
+    public void setGroceryList(List groceryList) {
+        this.groceryList = groceryList;
+    }
+    
+    
+}
