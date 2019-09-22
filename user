@@ -1,0 +1,101 @@
+*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package kitchenapp;
+
+import java.util.ArrayList;
+import java.util.List;
+
+/**
+ *
+ * @author samqabbani
+ */
+public class User {
+    
+    private String firstName;
+    private String lastName;
+    private String eMail;
+    private String phoneNum;
+    private List userList = new ArrayList();
+        
+    public User (String newFirstName, String newLastName, String newEMail, String newPhoneNum) {
+        this.firstName = newFirstName;
+        this.lastName = newLastName;
+        this.eMail = newEMail;
+        this.phoneNum = newPhoneNum;
+    }
+
+    /**
+     * @return the firstName
+     */
+    public String getFirstName() {
+        return firstName;
+    }
+
+    /**
+     * @param firstName the firstName to set
+     */
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    /**
+     * @return the lastName
+     */
+    public String getLastName() {
+        return lastName;
+    }
+
+    /**
+     * @param lastName the lastName to set
+     */
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    /**
+     * @return the eMail
+     */
+    public String geteMail() {
+        return eMail;
+    }
+
+    /**
+     * @param eMail the eMail to set
+     */
+    public void seteMail(String eMail) {
+        this.eMail = eMail;
+    }
+
+    /**
+     * @return the phoneNum
+     */
+    public String getPhoneNum() {
+        return phoneNum;
+    }
+
+    /**
+     * @param phoneNum the phoneNum to set
+     */
+    public void setPhoneNum(String phoneNum) {
+        this.phoneNum = phoneNum;
+    }
+
+    /**
+     * @return the userList
+     */
+    public List getUserList() {
+        return userList;
+    }
+
+    /**
+     * @param userList the userList to set
+     */
+    public void setUserList(List userList) {
+        this.userList = userList;
+    }
+
+    
+}
