@@ -1,0 +1,55 @@
+package kitchenapp;
+
+/**
+ *
+ * @author samqabbani
+ */
+public class FoodItem {
+    
+    private String itemName;
+    private String itemDescription;
+    private double price;
+
+    /**
+     * @return the itemName
+     */
+    public String getItemName() {
+        return itemName;
+    }
+
+    /**
+     * @param itemName the itemName to set
+     */
+    public void setItemName(String itemName) {
+        this.itemName = itemName;
+    }
+
+    /**
+     * @return the itemDescription
+     */
+    public String getItemDescription() {
+        return itemDescription;
+    }
+
+    /**
+     * @param itemDescription the itemDescription to set
+     */
+    public void setItemDescription(String itemDescription) {
+        this.itemDescription = itemDescription;
+    }
+
+    /**
+     * @return the price
+     */
+    public double getPrice() {
+        return price;
+    }
+
+    /**
+     * @param price the price to set
+     */
+    public void setPrice(double price) {
+        this.price = price;
+    }
+    
+}
